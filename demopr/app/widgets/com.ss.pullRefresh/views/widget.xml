@@ -1,0 +1,25 @@
+<Alloy>
+	<HeaderView platform="android">
+		<View  id="view" class="clsPr">	
+			<View id="container" class="clsPrContainer">
+				<View  id="vInfo" class="clsPrVInfo">
+					<ImageView id="arrow" class="clsPrArrow" />
+					<ActivityIndicator id="actInd" class="clsPrActInd" />
+					<Label id="statusLabel" class="clsPrStatusLabel" />
+					<Label id="lastUpdatedLabel" class="clsPrLastUpdatedLabel"/>	
+				</View>	
+			</View>
+		</View>
+	</HeaderView>
+
+	<HeaderPullView platform="ios">
+		<View id="view" class="clsPr">
+			<View id="container" class="clsPrContainer">
+				<ImageView id="arrow" class="clsPrArrow" />
+				<ActivityIndicator id="actInd" class="clsPrActInd" />
+				<Label id="statusLabel" class="clsPrStatusLabel" />
+				<Label id="lastUpdatedLabel" class="clsPrLastUpdatedLabel"/>	
+			</View>			
+		</View>
+	</HeaderPullView>
+</Alloy>

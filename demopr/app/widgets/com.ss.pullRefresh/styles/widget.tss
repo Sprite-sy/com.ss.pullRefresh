@@ -1,0 +1,74 @@
+
+".clsPr" : {
+	backgroundColor : "white",
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+}
+
+
+".clsPrVInfo" : {
+	bottom: 0,
+	width : Ti.UI.FILL,
+}
+
+".clsPrContainer" : {
+	width : Ti.UI.FILL,
+	height : Ti.UI.FILL,
+}
+
+".clsPrArrow" : {
+	image : WPATH("/images/arrow.png"),
+	width : 32,
+	height : 32,
+	bottom : 5,
+	left : '8%'
+}
+
+".clsPrLabelContainer": {
+	bottom: 20, //L("20px"),
+	height: Ti.UI.SIZE,
+}
+
+".clsPrStatusLabel" : {
+	text :  L('prPull', '下拉可以刷新...'),
+	width : 200,
+	bottom : 35,
+	height : Ti.UI.SIZE,
+	color : "#858585",
+	textAlign : "center",
+	font : {
+		fontSize : 18,
+		fontWeight : "bold"
+	}	
+}
+
+".clsPrLastUpdatedLabel" : {
+	text : L('prLastUpdated', '更新于: '),
+	width : 200,
+	bottom : 10,
+	height : Ti.UI.SIZE,
+	color : "#858585",
+	textAlign : "center",
+	font : {
+		fontSize : 14,
+	}		
+}
+		
+
+".clsPrActInd": {
+	left : 20,
+	bottom : 13,
+	width : 30,
+	height : 30,
+    style: Ti.UI.ActivityIndicatorStyle.DARK
+}
+
+".clsPrActInd[platform=ios]": {
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.DARK
+}
+
+".clsImagePrContainer[platform=ios]" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+}
+

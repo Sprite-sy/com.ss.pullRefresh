@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container">
+		<TableView id="tb">
+			<Widget src="com.ss.pullRefresh" id="pr" onPullrefresh="onPullrefresh"/>
+			<TableViewRow title="Sprite11111111"/>
+			<TableViewRow title="Sprite22222222"/>
+			<TableViewRow title="Sprite33333333"/>
+			<TableViewRow title="Sprite44444444"/>
+		</TableView>
+	</Window>
+</Alloy>
